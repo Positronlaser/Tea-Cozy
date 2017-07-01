@@ -1,0 +1,122 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.header{
+  height:60px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  width: 1330px;
+  position: fixed;
+  top: 0px;
+  margin: 0px auto;
+}
+nav{
+  display:inline-flex;
+  position:absolute;
+  right:0px;
+}
+a{
+  color: seashell;
+}
+li{
+  display: inline-flex;
+}
+.mission{
+  background-image: url("file:///C:/projects/Tea Cozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+.statement{
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h4{
+    text-align:center;
+  }
+  .feature{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    margin: auto;
+}
+.teas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50px;
+}
+.teas img{
+  width: 300px;
+  height: 200px;
+}
+.location{
+  background-image: url("file:///C:/projects/Tea Cozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display:flex;
+  margin-top: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.location h2{
+  text-align: center;
+}
+.Downtown {
+width:300px;
+height: 200px;
+opacity: 1;
+flex-direction: column;
+background-color: black;
+margin: 15px 40px;
+align-content: space-between;
+}
+.EastBay{
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+  flex-direction: column;
+  background-color: black;
+  margin: 15px 40px;
+}
+.Oakdale{
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+  flex-direction: column;
+  background-color: black;
+  margin: 15px 40px;
+}
+.blocks{
+  display: flex;
+  flex-flow: row;
+}
+.contact{
+  width: 100%;
+  height: 200px;
+  }
+  .contact h2 h4{
+    text-align: center;
+  }
+.copyright h5{
+  text-align: left;
+  margin-left: 20px;
+  }
